@@ -8,6 +8,6 @@ public class Homework {
 
     @GetMapping("/")
     public String print(){
-        return "To-do Application !";
+        return "To-do Application !" + "pull request" ;
     }
 }
